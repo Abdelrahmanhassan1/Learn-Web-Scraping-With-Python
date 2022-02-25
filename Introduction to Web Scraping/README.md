@@ -32,5 +32,11 @@ to find a specific html element and return all elements found in an array
 
 > pip install requests
 
+<p style="font-size: 1rem">The methods covered in this section:</p>
 
-
+1. requests.get(url) <br>
+pass the url you want to get its content
+2. html_document.prettify() <br>
+To make the content looks more nicer and clean
+3. text.parent
+returns the html element that contains a specific text
