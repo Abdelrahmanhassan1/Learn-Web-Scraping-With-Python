@@ -38,7 +38,7 @@ target_price_tag = target_price.find("strong")
 print(target_price_tag)
 horizontal_line()
 
-# Finally our price:
+# Finally, our price:
 price_of_product = target_price_tag.text
 print(price_of_product)
 horizontal_line()
